@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Starting point in C
+ *
+ * Return: 0 indicates no error
+ *
+ */
+
 int main(void)
 {
 
