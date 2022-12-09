@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - it will generate random numbers and specify weather the number is postive, negative or zero.
+ * main - specify weather the number is postive, negative or zero.
  *
- *Return: 0 indicates the excusion was successful
-*/
+ * Return: 0 indicates the excusion was successful.
+ */
 
 int main(void)
 {
