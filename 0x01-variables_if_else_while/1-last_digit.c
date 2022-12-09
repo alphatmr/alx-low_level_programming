@@ -4,12 +4,11 @@
 
 #include <stdio.h>
 
-
-
-/** main - print the last digit of the number from random nums
+/**
+ * main - program will assign a random number to the variable
  *
- * Return: 0 indicates file excuted successfuly
-*/
+ * Return: 0 indicates success of the program.
+ */
 
 int main(void)
 
