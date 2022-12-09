@@ -3,8 +3,9 @@
 /**
  * main - print uppercase and lowercase alphabets
  *
- * Rerturn: 0 indicates success of the execusion.
+ * Return: 0 indicates success.
  */
+
 int main(void)
 {
 	char letters;
