@@ -2,9 +2,9 @@
 
 /**
  *
- * main - function that checks for lowercase character.
+ * main - islower - is function that checks for lowercase character 3-islower.c
  *
- * Return: always 0.
+ * Return: 1 if the letter is lowercase or return 0.
  */
 
 int _islower(int c)
