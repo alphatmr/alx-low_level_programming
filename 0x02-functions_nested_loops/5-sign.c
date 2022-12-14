@@ -4,11 +4,11 @@
  *
  * print_sign - is a a function that prints the sign of a number.
  *
- * Return: if n > 0 print '+' return '1' if n==0 prints '0' return '0'
+ * Return: 1 if n is 0,
+ * 0 if n is 0,
+ * -1 if n < 0.
  *
- * if n < 0 print '-' return '-1'
- *
- * @n: number input
+ * @n: number input which sign i'll be printed.
  */
 
 int print_sign(int n)
