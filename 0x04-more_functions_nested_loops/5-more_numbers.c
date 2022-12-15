@@ -10,65 +10,18 @@
  */
 void more_numbers(void);
 {
-	int i;
+	int i, ch;
 
-	int j;
-
-	int k;
-
-	int result;
-
-
-
-	i = 0;
-
-	result = 0;
-
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 
 	{
-
-		while (result <= 14)
-
+		for (ch = 0; ch < 15; ch++)
 		{
+			if (ch >= 10)
+																			_putchar((ch / 10) + 48);
+																		_putchar((ch % 10) + 48);
+																	}
 
-			if (result < 10)
-
-			{
-
-				k = result;
-
-			}
-
-
-
-			else
-
-			{
-
-				j = result / 10;
-
-				k = result % 10;
-
-				_putchar (j + '0');
-
-			}
-
-
-
-			_putchar (k + '0');
-
-
-
-			result++;
-
-		}
-
-		i++;
-
-		result = 0;
-
-		_putchar ('\n');
-
+		_putchar('\n');
 	}
 }
