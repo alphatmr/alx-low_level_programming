@@ -9,21 +9,23 @@
  */
 void more_numbers(void);
 {
-	int i, j;
+	int i = 0;
+	int j = 0;
 
-	for (i = 0; i < 10; i++)
-	{
-		for (j = 0; j < 15; j++)
+	while (j <= 9)
+	{	
+		while (i <= 14)
 		{
-			if (j >= 10)
-			{
-				_putchar('1');
-			}
-
-			_putchar(j % 10 + '0');
+			if (i < 9)
+				_putchar(i / 10 + '0');
+			_putchar(i % 10 + '0');
+			i++;
 
 		}
+
 		_putchar('\n');
+		j++;
+		i = 0;
 
 	}
 }
