@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *
@@ -12,21 +13,12 @@ void print_line(int n)
 {
 	int sl;
 
-	if (n <= 0)
+	for (sl = 0; sl < n; sl++)
 	{
-		_putchar('\n');
-
+		_putchar('_');
 	}
 
-	else
-	{
-		for (sl = 1; sl <= n; sl++)
-		{
-			_putchar('_');
-		}
+	_putchar('\n');
 
-		_putchar('\n');
-
-	}
 
 }
