@@ -6,25 +6,27 @@
  *
  * @n: is a parameter for the function
  *
- * Return: Always 0.
+ * Return: straight line
  */
 void print_line(int n)
 {
 	int sl;
 
-	if (n > 0)
+	if (n <= 0)
 	{
-		while (sl <= n)
-		{
-			_putchar('_');
-			sl++;
-		}
-
-	_putchar('\n');
+		_putchar('\n')
 
 	}
 
 	else
-	_putchar('\n');
+	{
+		for(sl = 1; sl <= n; sl++)
+		{
+			_putchar('_');
+		}
+
+		_putchar('\n');
+
+	}
 
 }
