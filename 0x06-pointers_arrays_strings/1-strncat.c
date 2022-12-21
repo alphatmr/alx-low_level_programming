@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	str2 = 0;
 
 	while (*(dest + str1) != '\0')
-		str++;
+		str1++;
 
 	while (*(src + str2) != '\0' && str1 < 97 && str2 < n)
 	{
